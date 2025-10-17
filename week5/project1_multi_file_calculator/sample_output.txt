@@ -1,0 +1,20 @@
+=== Calculator Test Programme ===
+
+Basic Operations:
+10 + 5 = 15
+10 - 5 = 5
+10 * 5 = 50
+10 / 5 = 2
+
+Division by Zero Test:
+10 / 0 = Error: Division by zero!
+Result: 0
+
+Memory Functions:
+Storing 42.5 in memory
+Memory recall: 42.5
+Performing calculation: 42.5 + 7.5 = 50
+Clearing memory
+Memory recall: 0
+
+=== End of Tests ===
