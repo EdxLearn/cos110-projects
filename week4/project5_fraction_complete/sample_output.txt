@@ -1,0 +1,37 @@
+=== COS 110 - Project 5: Complete Fraction ===
+
+Test 1: Constructors and Simplification
+f1 (3,4): 3/4
+f2 (6,8 simplified): 3/4
+f3 (5): 5
+f4 (default): 0
+
+Test 2: Arithmetic
+3/4 + 3/4 = 3/2
+3/4 - 1/4 = 1/2
+3/4 * 2/3 = 1/2
+3/4 / 3/8 = 2
+
+Test 3: Comparison
+3/4 == 3/4 ? Yes
+3/4 != 5 ? Yes
+3/4 < 5 ? Yes
+5 > 3/4 ? Yes
+
+Test 4: Increment/Decrement
+f5 initial: 3/4
+++f5: 7/4
+f5 after ++: 7/4
+f5++: 7/4
+f5 after f5++: 11/4
+--f5: 7/4
+f5--: 7/4
+f5 final: 3/4
+
+Test 5: Decimal Conversion
+3/4 = 0.75 (decimal)
+
+Test 6: Complex Expression
+(3/4 + 3/4) * 1/2 = 3/4
+
+=== All tests complete! ===

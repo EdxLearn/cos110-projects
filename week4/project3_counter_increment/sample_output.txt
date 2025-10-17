@@ -1,0 +1,44 @@
+=== COS 110 - Project 3: Counter with ++/-- ===
+
+Test 1: Constructors
+c1 (default): 0
+c2 (5): 5
+
+Test 2: Prefix Increment (++c)
+c2 before: 5
+++c2 returns: 6
+c2 after: 6
+
+Test 3: Postfix Increment (c++)
+c2 before: 6
+c2++ returns: 6
+c2 after: 7
+
+Test 4: Prefix Decrement (--c)
+c2 before: 7
+--c2 returns: 6
+c2 after: 6
+
+Test 5: Postfix Decrement (c--)
+c2 before: 6
+c2-- returns: 6
+c2 after: 5
+
+Test 6: Chaining Prefix
+c2 before: 5
+c2 after ++(++c2): 7
+
+Test 7: Multiple Operations
+c3 initial: 10
+++c3: 11
+c3++: 11
+c3 now: 12
+--c3: 11
+c3--: 11
+c3 final: 10
+
+Test 8: Prefix vs Postfix Difference
+After ++c4, x = 6, c4 = 6
+After c5++, y = 5, c5 = 6
+
+=== All tests complete! ===

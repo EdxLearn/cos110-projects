@@ -1,0 +1,33 @@
+=== COS 110 - Project 4: SafeArray ===
+
+Test 1: Constructor and Writing
+Array contents: 10 20 30 40 50
+
+Test 2: Reading
+arr[0] = 10
+arr[2] = 30
+arr[4] = 50
+
+Test 3: Copy Constructor
+arr2 (copy): 10 20 30 40 50
+After arr2[0] = 100:
+arr2: 100 20 30 40 50
+arr (original): 10 20 30 40 50
+
+Test 4: Assignment Operator
+arr3 (assigned from arr): 10 20 30 40 50
+After arr3[1] = 200:
+arr3: 10 200 30 40 50
+arr (original): 10 20 30 40 50
+
+Test 5: Const Object
+Const array: 0 0 0
+Read arr4[0]: 0
+
+Test 6: Self-Assignment
+After arr = arr: 10 20 30 40 50
+
+Test 7: Bounds Checking (skipped to prevent crash)
+To test: uncomment arr[10] = 5; in main()
+
+=== All tests complete! ===

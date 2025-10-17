@@ -1,0 +1,34 @@
+{
+  "name": "COS 110 Week 4 C++ Development",
+  "image": "mcr.microsoft.com/devcontainers/cpp:1-debian-11",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": false,
+      "username": "vscode",
+      "userUid": "1000",
+      "userGid": "1000"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "C_Cpp.default.cppStandard": "c++98",
+        "C_Cpp.default.compilerPath": "/usr/bin/g++",
+        "files.associations": {
+          "*.cpp": "cpp",
+          "*.h": "cpp"
+        },
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "files.eol": "\n"
+      },
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.makefile-tools"
+      ]
+    }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y build-essential g++ make valgrind gdb",
+  "remoteUser": "vscode"
+}

@@ -1,0 +1,28 @@
+=== COS 110 - Project 2: Time with Streams ===
+
+Test 1: Constructors
+t1 (default): 00:00
+t2 (14:30): 14:30
+t3 (9:05): 09:05
+t4 (23:59): 23:59
+
+Test 2: Invalid Times (should default to 00:00)
+Error: Invalid time (25, 30). Setting to 00:00.
+t5 (25:30): 00:00
+Error: Invalid time (12, 60). Setting to 00:00.
+t6 (12:60): 00:00
+Error: Invalid time (-1, 30). Setting to 00:00.
+t7 (-1:30): 00:00
+
+Test 3: Stream Chaining
+Times: 00:00, 14:30, 09:05
+
+Test 5: Getters
+t2 hours: 14
+t2 minutes: 30
+
+Test 6: Validation
+t2 valid? Yes
+t5 valid? Yes
+
+=== All tests complete! ===

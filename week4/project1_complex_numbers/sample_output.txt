@@ -1,0 +1,30 @@
+=== COS 110 - Project 1: Complex Numbers ===
+
+Test 1: Constructors
+c1 = 0 + 0i
+c2 = 3 + 0i
+c3 = 3 + 4i
+c4 = 1 - 2i
+
+Test 2: Addition
+3 + 4i + 1 - 2i = 4 + 2i
+3 + 4i + 5 = 8 + 4i
+5 + 3 + 4i = 8 + 4i
+
+Test 3: Subtraction
+3 + 4i - 1 - 2i = 2 + 6i
+
+Test 4: Multiplication
+2 + 1i * 3 + 4i = 2 + 11i
+
+Test 5: Equality
+3 + 4i == 3 + 4i ? Yes
+3 + 4i == 3 + 5i ? No
+
+Test 7: Chaining
+Three complex numbers: 3 + 4i, 1 - 2i, 2 + 1i
+
+Test 8: Complex Expressions
+(3 + 4i + 1 - 2i) * 2 + 1i = 6 + 8i
+
+=== All tests complete! ===
